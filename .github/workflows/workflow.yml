@@ -23,6 +23,6 @@ jobs:
       shell: bash
       run: |
         export MAKE="$PWD/make.sh"
-        git clone https://github.com/bitsensor/elastalert.git
-        pushd elastalert
+        git clone https://github.com/coandco/elastalert-bitsensor.git
+        pushd elastalert-bitsensor
         $MAKE
